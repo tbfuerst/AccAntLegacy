@@ -1,0 +1,76 @@
+.floatingHeadline {
+text-align:center;
+border-bottom:solid 1.5px gray;
+padding-bottom:25px;
+font-family: serif;
+font-weight: bold;
+margin: 50px 120px;
+}
+
+.button{
+color:black;
+}
+
+.input-block-center{
+display:block;
+text-align:center;
+margin:20px;
+
+
+}
+.glowy-input{
+text-align:center;
+border: 2px solid #dadada;
+border-radius: 7px;
+}
+
+
+.glowy-input:focus{
+outline: none;
+border-color: #9ecaed;
+box-shadow: 0 0 10px #9ecaed;
+
+}
+
+.fixed{
+box-sizing:border-box;
+position:fixed;
+width:100%;
+height:200px;
+}
+
+.headermenu{
+margin:0;
+padding:0;
+height:100%
+}
+
+.headermenu li{
+box-sizing:border-box;
+padding:0;
+list-style-type:none;
+height:20%;
+}
+
+.headermenu label{
+box-sizing:border-box;
+text-align:center;
+display:inline-block;
+height:100%;
+width:100%;
+background-color:red;
+border: 1px solid black;
+line-height:333%;
+margin:0;
+padding:0;
+}
+
+.headermenu a{
+position:relative;
+color:white;
+}
+
+.maincontent{display:inline-block;
+position:relative;
+top:200px;
+}
